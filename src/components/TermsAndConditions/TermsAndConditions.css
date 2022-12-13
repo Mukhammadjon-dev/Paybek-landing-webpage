@@ -1,0 +1,91 @@
+.terms_wrapper{
+    overflow: hidden;
+}
+
+.terms_picture{
+    background-image: url(/src/assets/images_2/Mask_group.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: -15px;
+    position: relative;
+}
+.terms_box{
+    position: relative;
+    top: 110px;
+}
+
+.terms-box-title{
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+.terms-box-description{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.terms_text{
+max-width: 834px;
+margin: 0 auto;
+padding-top: 30px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: justify;
+color: #000000;
+}
+
+@media only screen and (max-width: 992px){
+    .terms_text{
+        width: 80%;
+        font-size: 16px;
+        line-height: 20px;
+        }
+    .terms_picture{
+            height: 300px;
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 520px){
+    .terms_text{
+        width: 80%;
+        font-size: 12px;
+        line-height: 16px;
+        }
+    .terms_picture{
+            height: 250px;
+            width: 100%;
+        }
+        .terms_box{
+            position: relative;
+            top: 90px;
+            padding-top: 16px;
+        }
+        
+        .terms-box-title{
+        font-size: 28px;
+        line-height: 36px;
+        margin: 0 auto;
+        
+        }
+        .terms-box-description{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 16px;
+        }
+}

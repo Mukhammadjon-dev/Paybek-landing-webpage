@@ -1,0 +1,546 @@
+.mobileapp_wrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #F2F5F7;
+overflow: hidden;
+}
+
+.mobileapp_innerwrapper{
+    max-width: 834px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F2F5F7;
+    }
+
+.mobileapp_title{
+    margin-bottom: 25px;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 46px;
+letter-spacing: -0.02em;
+color: #2B2B2B;
+}
+
+/*  First Row Style Here */
+
+.mobileapp_firstrow{
+    width: 100%;
+    height: 170px;
+background: #FFFFFF;
+border-radius: 10px;
+display: flex;
+margin: 10px auto;
+}
+
+.firstrow__leftside{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 30px;
+width: 50%;
+
+}
+
+.firstrow_leftside-title{
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: -0.02em;
+color: #000000;
+margin: 0;
+}
+
+.firstrow_leftside-description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    color: #000000;
+    margin: 7px 0;
+}
+
+.firstrow_leftside-button{
+    width: 150px;
+    background: #1652F0;
+    border: solid 1px #1652F0;
+    border-radius: 15px;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+
+.firstrow_leftside-button:hover{
+    cursor: pointer;
+}
+
+.firstrow_rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.firstrow_rightside-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.firstrow_rightside-row-left{
+    width: 80%;
+background: #FFFFFF;
+box-shadow: 5px 6px 19px rgba(20, 20, 20, 0.05);
+border-radius: 10px;    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.firstrow_rightside-row-left-name{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: -0.02em;
+color: #000000;
+margin: 5px 0;
+}
+
+.firstrow_rightside-row-left-city{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+color: #CDCCCB;
+margin: 5px 0;
+}
+
+.firstrow_rightside-row-right-price{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #D80027;
+margin: 5px 0;
+}
+
+.firstrow_rightside-row-right-date{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: -0.02em;
+color: #CDCCCB;
+margin: 5px 0;
+}
+
+.firstrow_rightside-row-picture1{
+    border: solid #FFFFFF 1px;
+    background: url(../../../assets/images_2/person_1.png);
+    background-repeat: no-repeat;
+    height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+
+.firstrow_rightside-row-picture2{
+    border: solid #FFFFFF 1px;
+    background: url(../../../assets/images_2/person_2.png);
+    background-repeat: no-repeat;
+    height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+.firstrow_rightside-background{
+    background-image: url(../../../assets/images_2/MobileApp_background.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 169px;
+}
+
+@media only screen and (max-width: 890px){
+    .mobileapp_title{
+        width: 80%;
+        text-align: center;
+    }
+
+.mobileapp_firstrow{
+   width: 80%;
+   height: 360px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.firstrow__leftside{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 0px;
+width: 80%;
+height: 170px;
+}
+
+.firstrow_rightside{
+    width: 80%;
+    height: 170px;   
+}
+
+}
+
+@media only screen and (max-width: 550px){
+
+
+.firstrow__leftside{
+    width: 90%;
+    }
+    
+    .firstrow_rightside{
+        width: 90%;   
+    }
+
+    .mobileapp_title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    }
+
+.firstrow_leftside-title{
+text-align: center;
+font-size: 24px;
+line-height: 28px;
+}
+
+.firstrow_leftside-description{
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.firstrow_rightside-row-left-name{
+font-size: 15px;
+}
+
+.firstrow_rightside-row-right-price{
+font-size: 14px;
+line-height: 18px;
+}
+
+.firstrow_rightside-row-right-date{
+font-size: 12px;
+line-height: 18px;
+}
+
+}
+
+/* Second Row Style goes here */
+
+.mobileapp_secondrow{
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.secondrow_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+    height: 170px;
+    padding: 0 40px;
+    background: #FFFFFF;
+border-radius: 10px;
+position: relative; 
+margin: 10px auto;  
+}
+
+.secondrow_part-title{
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #000000;
+margin: 0;
+}
+
+.secondrow_part-defitination{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 34px;
+letter-spacing: -0.02em;
+color: #797979;
+margin: 0;
+}
+
+.picture_position{
+    position: relative;
+}
+
+.secondrow_part-speaker{
+    position: absolute;
+    background: url(../../../assets/images_2/Speaker_big.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    right: 10%;
+}
+
+.secondrow_part-userprofile{
+    position: absolute;
+    background: url(../../../assets/images_2/userprofile_big.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 135px;
+    right: 10%;
+
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+
+}
+
+@media only screen and (max-width: 890px){
+
+
+.mobileapp_secondrow{
+    width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+
+    .secondrow_part{
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+    .secondrow_part{
+        padding: 0 20px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    .secondrow_part-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        }
+        
+        .secondrow_part-defitination{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 32px;
+        }
+        
+        
+        .secondrow_part-speaker{
+            right: 5%;
+            bottom: 20%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        
+        .secondrow_part-userprofile{
+            right: 0;
+
+            -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+        }
+        
+}
+
+
+
+/* Third Row Style goes here  */
+
+.mobileapp_thirdrow{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 10px auto;
+}
+
+.thirdrow_part{
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin: 10px auto;
+}
+
+.part_minicard{
+width: 48.5%;
+background: #FFFFFF;
+border-radius: 10px;
+padding: 5px 15px;
+}
+
+.part_minicard-title{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+}
+
+.part_minicard-description{
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 11px;
+text-align: center;
+color: #797979;
+}
+
+.minicard_picture1{
+    background: url(../../../assets/images_2/Location.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    right: 8%;
+    top: 5%;
+}
+
+.minicard_picture2{
+    background: url(../../../assets/images_2/Debit_Cardmini.png);
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 50px;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.minicard_picture3{
+    background: url(../../../assets/images_2/minicard_dollar.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 8%;
+    top: 5%;
+}
+
+.minicard_picture4{
+    background: url(../../../assets/images_2/Tick.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 8%;
+    top: 5%;
+}
+
+
+@media only screen and (max-width: 890px){
+
+    .mobileapp_thirdrow{
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .thirdrow_part{
+        width: 100%;
+    }
+    
+    .part_minicard{
+    width: 48%;
+    padding: 5px 35px;
+    
+}
+    
+}
+
+@media only screen and (max-width: 530px){
+
+    .mobileapp_thirdrow{
+        width: 80%;
+    }
+    
+    .thirdrow_part{
+        width: 100%;
+    }
+    
+    .part_minicard{
+    width: 49%;
+    padding: 0px 15px;
+}
+.part_minicard-title{
+font-size: 12px;
+line-height: 16px;
+}
+
+.part_minicard-description{
+font-size: 8px;
+line-height: 9px;
+}
+
+
+.minicard_picture1{
+    right: 0;
+    top: -3%;
+
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.minicard_picture2{
+    position: absolute;
+    right: -5%;
+    top: 5%;
+
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+
+}
+
+.minicard_picture3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.minicard_picture4{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+}
+}
+
+
+@media only screen and (max-width: 375px){
+.part_minicard{
+    width: 49%;
+    padding: 0px 5px;
+}
+}

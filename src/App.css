@@ -1,0 +1,42 @@
+html,
+body {
+  background: #F2F5F7;
+}
+
+@font-face {
+  font-family: 'PangramCompactRegular';
+  src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-CompactRegular.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'PangramBold';
+    src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'PangramLight';
+    src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'PangramMedium';
+  src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'PangramSemibold';
+  src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-Semibold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'PangramThin';
+  src: local('Pangram'), url(./assets/fonts/PPPangramSansRounded-Thin.otf) format('opentype');
+}
+ 
+*{
+    font-family: 'PangramMedium';
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}

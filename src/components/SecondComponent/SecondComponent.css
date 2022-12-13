@@ -1,0 +1,540 @@
+.secondcomponent_wrapper{
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.secondcomponent_innerwrapper{
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+.secondcomponent_everyday{
+text-align: center;
+width: 250px;
+height: 32px;
+margin: 15px auto 10px auto;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #707484;
+}
+.secondcomponent_heading{
+    margin: 0 auto;
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 80px;
+align-items: center;
+text-align: center;
+color: #1A1C1F;
+}
+.secondcomponent_description{
+margin: 15px auto 30px auto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #707484;
+}
+
+.secondcomponent_picturewrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.secondcomponent_familypicture{
+    background-image: url(/src/assets/images_2/family_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+.secondcomponent_picturetext_wrapper{
+    position: absolute;
+    width: 450px;
+    bottom: 30px;
+    left: 20px;
+    z-index: 10;
+}
+
+.secondcomponent_picturetext_headline{
+    margin: 0;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: start;
+color: #FFFFFF;
+}
+
+.secondcomponent_picturetext_description{
+margin: 0;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+text-align: start;
+color: #FFFFFF;
+}
+
+.secondcomponent_doublecard_wrapper{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.secondcomponent_firstcard{
+    border-radius: 20px;
+    background: #FFFFFF;
+    width: 48%;
+    height: 490px;
+    cursor: pointer;
+}
+
+.secondcomponent_secondcard{
+    border-radius: 20px;
+    background: #26D36B;
+    width: 48%;
+    height: 490px;
+    color: white;
+    cursor: pointer;
+}
+
+.secondcomponent_doublecard_text{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+display: flex;
+padding: 0 15px;
+text-align: center;
+color: inherit;
+}
+
+.secondcomponent_cardsrow{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cardrows_card{
+width: 50px;
+height: 50px;
+border-radius: 10px;
+}
+.cardrows_card_picture1{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/visa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;    
+}
+.cardrows_card_picture2{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/dinersclub.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.cardrows_card_picture3{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/discover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.cardrows_card_picture4{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/unionpay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.cardrows_card_picture5{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/americanexpress.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.cardrows_card_picture6{
+    width: 100%;
+    height: 100%;
+    background: url(/src/assets/images_2/jcb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.secondcomponent_mastercard{
+    height: 140px;
+    width: 220px;
+    margin: 50px auto 0 auto;
+    background: url(/src/assets/images_2/master_card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.secondcomponent_userwrapper{
+margin: 0 auto;
+width: 300px;
+height: 300px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.secondcomponent_userlogo{
+    width: 172px;
+    height: 162px;
+    background: url(/src/assets/images_2/userinfo_picture.png);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 992px){
+ 
+    .secondcomponent_doublecard_wrapper{
+        width: 90%;
+    }
+
+    .secondcomponent_firstcard{
+        width: 48%;
+        height: 490px;
+    }
+    
+    .secondcomponent_secondcard{
+        border-radius: 20px;
+        background: #26D36B;
+        width: 48%;
+        height: 490px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .secondcomponent_doublecard_text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    padding: 0 15px;
+    text-align: center;
+    color: inherit;
+    }
+    
+    
+    .secondcomponent_picturetext_wrapper{
+        bottom: 20px;
+        left: 10px;
+    }
+    .secondcomponent_picturewrapper{
+        margin: 0 auto;
+        width: 90%;
+        height: 280px;
+    }
+
+    .secondcomponent_picturetext_headline{
+    font-size: 48px;
+    line-height: 48px;
+    }
+    .secondcomponent_picturetext_description{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 650px){
+
+    .secondcomponent_everyday{
+        height: 20px;
+        margin: 15px auto 20px auto;
+        font-size: 14px;
+        line-height: 32px;
+
+        }
+        .secondcomponent_heading{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        }
+        .secondcomponent_description{
+        margin: 20px auto 30px auto;
+        font-size: 14px;
+        line-height: 32px;
+        }
+        
+
+    .secondcomponent_picturetext_headline{
+        font-size: 24px;
+        line-height: 32px;
+        }
+        .secondcomponent_picturetext_description{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        }
+
+    .secondcomponent_picturewrapper{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 180px;
+    }
+    
+    .secondcomponent_doublecard_wrapper{
+        width: 80%;
+    }   
+
+    
+.secondcomponent_firstcard{
+    width: 48%;
+    height: 320px;
+}
+
+.secondcomponent_secondcard{
+    width: 48%;
+    height: 320px;
+}   
+
+.secondcomponent_doublecard_text{
+    font-size: 18px;
+    padding: 0 15px;
+    line-height: 20px;
+    margin: 15px auto 15px auto;
+    }
+
+    
+.secondcomponent_userwrapper{
+    width: 100%;
+    height: 70%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+    .secondcomponent_cardsrow{
+        margin-bottom: 10px;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .secondcomponent_mastercard{
+        margin-top: -15px;
+            -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    }
+
+}
+
+
+@media only screen and (max-width: 560px){
+
+    .secondcomponent_picturetext_wrapper{
+        bottom: 15px;
+        left: 15px;
+        width: 320px;
+    }
+    .secondcomponent_picturetext_headline{
+        font-size: 28px;
+        line-height: 32px;
+        }
+        .secondcomponent_picturetext_description{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        }
+
+.secondcomponent_firstcard{
+    width: 48%;
+    height: 280px;
+}
+
+.secondcomponent_secondcard{
+    width: 48%;
+    height: 280px;
+}   
+
+.secondcomponent_doublecard_text{
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px auto 10px auto;
+    }
+
+    
+.secondcomponent_userwrapper{
+    width: 100%;
+    height: 60%;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    }
+
+    .secondcomponent_cardsrow{
+        margin-bottom: 5px;
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7, 0.7);
+
+    }
+
+    .secondcomponent_mastercard{
+        margin-top: -15px;
+        margin-left: -15px;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8, 0.8);
+
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .secondcomponent_picturetext_wrapper{
+        bottom: 10px;
+        left: 10px;
+        width: 320px;
+    }
+    .secondcomponent_picturetext_headline{
+        font-size: 22px;
+        line-height: 32px;
+        }
+        .secondcomponent_picturetext_description{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        }
+    
+    .secondcomponent_doublecard_wrapper{
+        width: 80%;
+    }
+
+    
+.secondcomponent_firstcard{
+    width: 48%;
+    height: 230px;
+}
+
+.secondcomponent_secondcard{
+    width: 48%;
+    height: 230px;
+}   
+
+.secondcomponent_doublecard_text{
+    justify-content: center;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px auto 10px auto;
+    }
+
+    
+.secondcomponent_userwrapper{
+    width: 100%;
+    height: 70%;
+
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+
+    }
+
+    .secondcomponent_cardsrow{
+        margin-bottom: 0px;
+
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .cardrows_card{
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+
+        }
+
+    .secondcomponent_mastercard{
+        margin-top: -20%;
+        margin-left: -20%;
+
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+}
+
+@media only screen and (max-width: 420px){
+
+    .secondcomponent_firstcard{
+        width: 48%;
+        height: 200px;
+        padding-top: 15px;
+    }
+    
+    .secondcomponent_secondcard{
+        width: 48%;
+        height: 200px;
+display: flex;
+flex-direction: column;
+        justify-content: center;
+    }   
+    
+    .secondcomponent_doublecard_text{
+        justify-content: center;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 5px auto 0px auto;
+        }
+    
+        
+    .secondcomponent_userwrapper{
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .secondcomponent_userlogo{
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    
+        .secondcomponent_cardsrow{
+            margin-bottom: -15px;
+            -webkit-transform: scale(0.8, 1 );
+            transform: scale(0.8, 1 );
+        }
+    
+        .cardrows_card{
+        -webkit-transform: scale( 0.6, 0.5);
+
+        transform: scale( 0.6, 0.5);
+            }
+
+            .secondcomponent_mastercard{
+                margin-top: -45px;
+                margin-left: -35px;
+                -webkit-transform: scale( 0.4);
+                transform: scale(0.4);
+            }
+    
+}

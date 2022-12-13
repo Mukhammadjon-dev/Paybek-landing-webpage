@@ -1,0 +1,179 @@
+.lowfees_wrapper{
+    height: 740px;
+    /* background: #E5E5E5; */
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.lowfees_innerwrapper{
+    max-width: 834px;
+margin: 0 auto;
+height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Left Side Styling here  */
+
+.lowfees_leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lowfees_leftside__title{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+color: #1652F0;
+}
+
+.lowfees_leftside__headline{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;   
+    margin: 0 0;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.lowfees_leftside__description{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #797979;
+}
+
+/* Right Side Styling here  */
+
+.lowfees_rightside{
+    width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.lowfees_rightside__picture{
+    width: 300px;
+    height: 610px;
+    background: url(../../../assets//images_2/lowFee_phone.svg);
+    background-repeat: no-repeat;
+    filter: drop-shadow(-10px -5px 20px rgb(165, 164, 164));
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 880px){
+    .lowfees_leftside{
+        width: 45%;
+    }
+    .lowfees_rightside{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .lowfees_wrapper{
+        height: 650px;
+        
+    }
+
+    .lowfees_innerwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lowfees_leftside{
+        width: 60%;
+    }
+
+    .lowfees_leftside__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px auto;
+    }
+    
+    .lowfees_leftside__headline{
+        font-weight: 700;
+font-size: 28px;
+line-height: 30px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center; 
+        text-align: center;
+        color: #000000;
+        text-transform: capitalize;
+    }
+    
+    .lowfees_leftside__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+    }
+    
+    .lowfees_rightside{
+        width: 60%;
+    }
+
+    .lowfees_rightside__picture{
+        width: 205px;
+        height: 405px;
+        background: url(../../../assets//images_2/3new_tablet.png);
+        background-repeat: no-repeat;
+        margin-top: 20px; 
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .lowfees_wrapper{
+        height: 530px;
+    }
+
+    .lowfees_leftside{
+        width: 80%;
+    }
+
+    .lowfees_leftside__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 10px auto;
+    }
+    
+    .lowfees_leftside__headline{
+        font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+        margin: 0 auto;
+    }
+    
+    .lowfees_leftside__description{
+    font-size: 12px;
+    line-height: 14px;
+
+    }
+    
+    .lowfees_rightside{
+        width: 80%;
+    }
+
+    .lowfees_rightside__picture{
+        width: 150px;
+        height: 290px;
+        background: url(../../../assets//images_2/3new_mobile.svg);
+        background-repeat: no-repeat;
+        margin-top: 15px; 
+    }
+}

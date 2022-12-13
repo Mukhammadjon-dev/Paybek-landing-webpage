@@ -1,0 +1,106 @@
+.payback__wrapper{
+    height: 200px;
+    background: #1652F0;
+    overflow: hidden;
+    display: flex;
+    }
+    
+.payback__innerwrapper{
+/* border: solid black 1px; */
+
+
+    padding: 1.5rem 0 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+align-items: center;
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+    .payback__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 52px;
+    color: #FFFFFF;
+    }
+
+    .payback__description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    
+    .payback__button{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #1652F0;
+        margin-top: 20px;
+    width: 213px;
+    height: 40px;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
+    
+@media only screen and (max-width: 992px) {
+    .payback__wrapper{
+        height: 170px;
+    }
+
+    .payback__top{
+        height: 200px;
+        }
+    .payback__description{
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0 auto;
+        }
+
+}
+@media only screen and (max-width: 480px){
+    .payback__wrapper{
+        height: 160px;
+        background: #1652F0;
+        padding: 1rem 0 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        }
+
+        .payback__button{
+            font-size: 20px;
+            line-height: 34px;
+            margin-top: 20px;
+            align-self: center;
+        }
+
+    .payback__top{
+        height: 200px;
+        }
+    .payback__description{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+}

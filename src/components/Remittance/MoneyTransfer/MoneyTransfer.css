@@ -1,0 +1,254 @@
+.moneytransfer_wrapper{
+    margin-top: 30px;
+    background: #1652F0;
+    /* height: 500px; */
+    height: 400px;
+
+    padding-top: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.moneytransfer_innerwrapper{
+    margin: auto;
+    /* max-width: 930px; */
+    width: 930px;
+    
+    display: flex;
+
+    justify-content: center;
+    /* justify-content: space-between; */
+    
+    /* overflow: hidden; */
+}
+
+.moneytransfer_leftside{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/* 
+.moneytransfer_leftside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moneytransfer_rightside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+} */
+
+/* Left Side Styling here */
+
+.leftside_title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+text-transform: capitalize;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+}
+
+.leftside_defination{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.leftside_marketwrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    height: 50px;
+    }
+
+    .leftside_appStore{
+    width: 154px;
+    height: 50px;
+    background-image: url(../../../assets/images_2/appStore_biglogo.webp);
+    background-repeat: no-repeat;
+    cursor: pointer; 
+    }
+
+    .leftside_appStore_notsupported{
+        width: 154px;
+        height: 50px;
+        background-image: url(../../../assets/images_2/appStore_biglogo.png);
+        background-repeat: no-repeat;
+        cursor: pointer; 
+        }
+
+    .leftside_googlePlay{
+    width: 154px;
+    height: 50px;
+    background-image: url(../../../assets/images_2/googlePlay_biglogo.webp);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+
+    .leftside_googlePlay_notsupported{
+        width: 154px;
+        height: 50px;
+        background-image: url(../../../assets/images_2/googlePlay_biglogo.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        }
+
+    /* Right Side Styling here */
+/* 
+.rightside_defination{
+width: 307px;
+height: 34px;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 34px;
+text-align: center;
+text-decoration-line: underline;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.yellowtext{
+font-weight: 800;
+    color: rgba(254, 255, 0, 1);
+}
+
+.rightside_button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+/* line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 14px 4px;
+gap: 10px;
+width: 290px;
+height: 51px;
+border: solid #2ACDCD 1px;
+background: #2ACDCD;
+border-radius: 185px;
+}
+
+.rightside_button:hover{
+    cursor: pointer;
+} */
+
+@media only screen and (max-width: 1100px){
+
+    /* .moneytransfer_leftside{
+        width: 48%;
+    }
+    
+    .moneytransfer_rightside{
+        width: 48%;
+        padding-top: 0px;
+    }
+    
+    .moneytransfer_numberinput{
+        width: 150px;
+        height: 50px;
+    }
+
+    .rightside_button{
+    padding: 10px 4px;
+    width: 230px;
+    height: 40px;
+    margin: 0 auto;
+    border: solid #2ACDCD 1px;
+    background: #2ACDCD;
+    border-radius: 185px;
+    }    */
+}
+
+@media only screen and (max-width: 890px){
+
+    /* .moneytransfer_wrapper{
+        height: 640px;
+    } */
+
+    .moneytransfer_innerwrapper{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moneytransfer_leftside{
+        width: 80%;
+        height: 290px;
+        align-items: center;
+    }
+    
+    /* .moneytransfer_rightside{
+        width: 80%;
+        height: 290px;
+    }    */
+
+    .leftside_title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+    }
+    
+    .leftside_defination{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    }
+
+    .leftside_playmarket{
+        margin: 0 auto;
+        width: 310px;
+        height: 50px;    
+        }
+}
+
+@media only screen and (max-width: 410px){
+    .moneytransfer_wrapper{
+        height: 100%;
+    }
+
+    .moneytransfer_leftside{
+        width: 90%;
+    }
+    
+    /* .moneytransfer_rightside{
+        justify-content: start;
+        width: 95%;  
+    } */
+
+    .leftside_marketwrapper{
+        justify-content: space-between;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        }    
+
+}

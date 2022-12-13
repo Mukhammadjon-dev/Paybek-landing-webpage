@@ -1,0 +1,270 @@
+.firstcomponent_wrapper{
+    height: 90vh;
+    max-width: 834px;
+    max-height: 720px;
+    margin-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.title_box{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_box_headline{
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+color: #1A1C1F;
+margin: 0 0 15px 0;
+}
+
+.title_box_description{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #707484;
+margin: 10px 0;
+}
+
+.title_box_ctabutton{
+    width: 290px;
+    height: 62px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1652F0;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: none;    
+    cursor: pointer;
+}
+
+.firstcomponent_picturewrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.firstcomponent_IPhone_1 {
+    background: url("/src/assets/images_2/IPhone_1.webp");
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    z-index: 100;
+}
+
+.firstcomponent_IPhone_1_notsupported {
+    background: url("/src/assets/images_2/IPhone_1.png");  
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    z-index: 100;
+}
+
+.firstcomponent_IPhone_2{
+    background-image: url(/src/assets/images_2/IPhone_2.webp);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    z-index: 50;
+}
+
+
+.firstcomponent_IPhone_2_notsupported {
+    background-image: url(/src/assets/images_2/IPhone_2.png);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    z-index: 50;
+}
+
+
+
+@media only screen and (max-width: 1330px){
+    .firstcomponent_wrapper{
+        height: 100vh;
+        width: 80%;
+    }
+
+    .firstcomponent_IPhone_1, .firstcomponent_IPhone_1_notsupported{
+        top: 20%;
+        left: 0;
+    }
+    
+    .firstcomponent_IPhone_2, .firstcomponent_IPhone_2_notsupported{
+        bottom: 25%;
+        right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .firstcomponent_wrapper{
+        height: 100vh;
+        width: 90%;
+    }
+
+    
+.firstcomponent_IPhone_1, .firstcomponent_IPhone_1_notsupported{
+    top: 20%;
+    left: 0;
+}
+
+.firstcomponent_IPhone_2, .firstcomponent_IPhone_2_notsupported{
+    bottom: 25%;
+    right: 0;
+}
+
+}
+
+@media only screen and (max-width: 830px){
+    
+    .firstcomponent_wrapper{
+    width: 80%;   
+    height: 100%;
+    margin-top: 40px;
+    padding: 40px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    }
+
+    .title_box{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .title_box_description{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #707484;
+            margin: 10px 0;
+            }
+
+        .title_box_headline{
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 32px;
+            margin: 0 0 10px 0;            
+            text-align: center;
+            color: #1A1C1F;
+            } 
+
+            .title_box_ctabutton{    
+                width: 180px;
+                height: 40px;
+                font-size: 14px;
+            }
+
+    .firstcomponent_picturewrapper{
+       width: 80%;
+       height: 600px;
+       margin: 30px auto 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .firstcomponent_IPhone_1, .firstcomponent_IPhone_1_notsupported{
+        position: absolute;
+        top: 5%;
+        left: 0;
+    }
+    
+    .firstcomponent_IPhone_2, .firstcomponent_IPhone_2_notsupported{
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 650px){
+    .firstcomponent_wrapper{
+        width: 90%;   
+        }
+
+        .title_box{
+            width: 80%;
+        }
+        .firstcomponent_picturewrapper{
+            width: 80%;
+            height: 410px;
+        }
+
+.title_box_description{
+    text-align: center;}
+
+     
+.firstcomponent_IPhone_1, .firstcomponent_IPhone_1_notsupported{
+    position: absolute;
+    top: -5%;
+    left: 0;
+    -webkit-transform: scale( 0.8);
+    transform: scale(0.8, 0.8);
+}
+
+.firstcomponent_IPhone_2, .firstcomponent_IPhone_2_notsupported{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    -webkit-transform: scale( 0.8);
+    transform: scale(0.8, 0.8);
+}
+
+}
+
+@media only screen and (max-width: 480px){
+    .firstcomponent_wrapper{
+        width: 100%;   
+        }
+
+        .title_box{
+            width: 90%;
+        }
+        .firstcomponent_picturewrapper{
+            width: 95%;
+         }
+}

@@ -1,0 +1,197 @@
+.footer_wrapper{
+    overflow: hidden;
+    background: #FFFFFF;
+
+}
+
+.footer_innerwrapper{
+    max-width: 834px;
+    margin: 0 auto;
+}
+
+.footer_bottom_menu{
+padding-bottom: 20px;    
+    display: flex;
+    justify-content: center;
+}
+
+.footer_bottom_menupart{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 30px 0;
+}
+
+.footer_bottom_paybeklogo{
+    margin: 15px auto;
+    background: url(/src/assets/images/Paybek_logo.svg);
+    background-repeat: no-repeat;    
+    width: 145px;
+    height: 40px;
+}
+
+.footer_bottom_title{
+    padding: 10px 0;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #1A1C1F;
+}
+
+.address{
+    margin-top: 8px;
+}
+
+.footer_bottom_largetext{
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+max-width: 280px;
+line-height: 24px;
+align-items: center;
+text-align: justify;
+color: rgba(26, 28, 31, 0.8);
+}
+
+.footer_bottom_text{
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+max-width: 290px;
+line-height: 24px;
+align-items: center;
+text-align: justify;
+color: rgba(26, 28, 31, 0.8);
+}
+
+.footer_socialmedia-wrapper{
+width: 90px;
+height: 36px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.footer_socialmedia_text{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.instagram{
+    background-image: url(../../assets/images_2/ins_fill.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+
+    -webkit-transform: scale( 1.4);
+    transform: scale(1.4);
+}
+.facebook{
+    background-image: url(../../assets/images_2/facebook_fill.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    -webkit-transform: scale( 1.4);
+    transform: scale(1.4);
+}
+.telegram{
+    background-image: url(../../assets/images_2/telegram_fill.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    -webkit-transform: scale( 1.4);
+    transform: scale(1.4);
+}
+
+.whatsapp{
+    background-image: url(../../assets/images_2/whatsapp_fill.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    -webkit-transform: scale( 1.4);
+    transform: scale(1.4);
+}
+
+.footer_routerbutton{
+    text-decoration: none;
+    color: rgba(26, 28, 31, 0.8);
+}
+
+.footer_bottom_elements{
+}
+
+.footer_bottom_copyright{
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+max-width: 240px;
+line-height: 24px;
+margin: 0 auto;
+padding-bottom: 20px;
+align-items: center;
+text-align: center;
+color: rgba(26, 28, 31, 0.8);
+}
+
+@media only screen and (max-width: 1120px){
+.footer_bottom_menupart{   
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        margin: 30px 0;
+    }
+
+    .footer_socialmedia-wrapper{
+        height: 26px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .footer_bottom_menupart{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 20px auto 10px auto;
+    }
+    .footer_bottom_menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+}
+@media only screen and (max-width: 480px){
+
+    .footer_bottom_menupart{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .footer_bottom_largetext{
+        width: 190px;
+        margin: 0 auto;
+        line-height: 24px;
+        align-items: center;
+        text-align: justify;
+    }
+    .footer_bottom_elements{
+        margin: 0 5px;
+    }
+
+    
+.footer_bottom_title{
+    padding: 10px 0 5px 0;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #1A1C1F;
+}
+
+}
