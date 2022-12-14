@@ -25,7 +25,6 @@
     font-weight: 700;
     font-size: 18px;
     display: flex;
-
     align-items: center;
     color: #1652F0;
     }
@@ -199,9 +198,16 @@ transform: scale(0.9, 0.9);
         padding-top: 30px;
     }
     
-.fourthcomponent_column_picture, .fourthcomponent_column_picture_notsupported{
-margin-top: -50px;
+.fourthcomponent_column_picture{
+    margin-top: -50px;
 transform: scale(0.8, 0.8);
+-webkit-transform: scale( 0.8);
+}
+
+.fourthcomponent_column_picture_notsupported{
+    margin-top: -50px;
+    margin-bottom: -50px;
+transform: scale(0.6, 0.6);
 -webkit-transform: scale( 0.8);
 }
 

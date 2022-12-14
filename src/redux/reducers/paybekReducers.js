@@ -3,7 +3,7 @@ import { detect } from "detect-browser";
 import { CLOSE_MODAL, OPEN_MODAL } from "../types";
 
 const detectNow = detect();
-const versionDetect =  detectNow.version.split('.')[0] < 14
+const versionDetect =  detectNow.version.split('.')[0] < 15.2
 const safari = detectNow.name;
 const isSafariIos = (safari === "ios");
 

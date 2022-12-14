@@ -1,5 +1,6 @@
 import "./LowFees.css";
 import { motion } from "framer-motion";
+import { useSelector } from "react-redux";
 
 const leftSideAnimate = {
     offscreen: { x: 100, opacity: 0 },
@@ -26,6 +27,8 @@ const rightSideAnimate = {
 }
 
 function LowFees() {
+    const BrowserDetect = useSelector(state => state.paybek.BrowserDetect);
+
     return (
         <div className="lowfees_wrapper">
             <div className="lowfees_innerwrapper">
@@ -52,7 +55,7 @@ function LowFees() {
                 whileInView={"onscreen"}
                 viewport={{ once: true, amount: 0.2 }}
                 variants={rightSideAnimate}>
-                <div className="lowfees_rightside__picture"></div>
+                    <div className={BrowserDetect ? "lowfees_rightside_picture_notsupported" : "lowfees_rightside__picture"}></div>
             </motion.div>
         </div>
         </div>

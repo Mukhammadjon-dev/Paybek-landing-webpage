@@ -7,8 +7,6 @@
     
 .payback__innerwrapper{
 /* border: solid black 1px; */
-
-
     padding: 1.5rem 0 1.5rem 0;
     display: flex;
     flex-direction: column;
@@ -46,6 +44,7 @@ align-items: center;
         font-weight: 700;
         font-size: 20px;
         line-height: 30px;
+        min-height: 40px;
         color: #1652F0;
         margin-top: 20px;
     width: 213px;
