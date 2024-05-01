@@ -1,14 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useReducedMotion } from "framer-motion"
 import { NavLink } from "react-router-dom";
+import { openModal } from "../../redux/actions/paybekActions";
 
 import "./styles.css"
-
 import logo from '../../assets/images/Paybek_logo.svg';
-
 import menuIcon from '../../assets/icons/menu.svg';
 import closeIcon from '../../assets/icons/close.svg';
-import { openModal } from "../../redux/actions/paybekActions";
 
 const variants = {
     open: { opacity: 1, y: 0 },
@@ -43,7 +41,10 @@ const Header = () => {
 
     const renderNavigationItems = () => (<nav className="navbar">
         <a><NavLink onClick={closeMenu} style={navLinkStyles} to="/" >Top Up</NavLink></a>
-        {/* <a><NavLink onClick={closeMenu} style={navLinkStyles} to="/remittance" >Remittance</NavLink></a> */}
+        <a><NavLink onClick={closeMenu} style={navLinkStyles} to="/remittance" >Remittance</NavLink></a>
+
+        <a><NavLink onClick={closeMenu} style={navLinkStyles} to="/privacy" >Privacy Policy</NavLink></a>
+        <a><NavLink onClick={closeMenu} style={navLinkStyles} to="/terms" >Terms & Conditions </NavLink></a>
     </nav>)
 
     const languageButtons = () => (
