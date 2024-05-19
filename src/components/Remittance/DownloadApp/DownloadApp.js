@@ -48,11 +48,13 @@ function DownloadApp() {
                     variants={downloadIconsAnimate}>
                     <a className={BrowserDetect ? "downloadapp_appStore_notsupported" : "downloadapp_appStore"}
                         href="https://apps.apple.com/uz/app/paybek/id1605546414"
-                        target="_blank">
+                        target="_blank"
+                        rel="noreferrer">
                     </a>
                     <a className={BrowserDetect ? "downloadapp_googlePlay_notsupported": "downloadapp_googlePlay"}
                         href="https://play.google.com/store/apps/details?id=com.mobile.paybek"
-                        target="_blank">
+                        target="_blank"
+                        rel="noreferrer">
                     </a>
                 </motion.div>
             </div>

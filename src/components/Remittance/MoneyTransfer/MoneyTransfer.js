@@ -1,4 +1,3 @@
-import CurrencyInput from "./CurrencyInput";
 import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
 
@@ -16,17 +15,6 @@ const leftSideAnimate = {
     }
 }
 
-const rightSideAnimate = {
-    offscreen: { y: -100, opacity: 0 },
-    onscreen: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            type: "tween",
-            duration: 1
-        }
-    }
-}
 
 function MoneyTransfer() {
 

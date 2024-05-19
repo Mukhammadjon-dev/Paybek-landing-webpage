@@ -43,7 +43,7 @@ function Footer() {
                             <div className="footer_bottom_text">
                                 <div className="footer_socialmedia-wrapper">
                                     <div className="instagram"></div>
-                                    <a className="footer_socialmedia_text" href="https://www.instagram.com/paybekapp/" target={"_blank"} > Instagram </a>
+                                    <a className="footer_socialmedia_text" href="https://www.instagram.com/paybekapp/" target={"_blank"} rel="noreferrer"> Instagram </a>
                                 </div>
                                 {/* <div className="footer_socialmedia-wrapper">
                                     <div className="facebook"></div>

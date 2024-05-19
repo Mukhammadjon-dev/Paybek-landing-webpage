@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
-import { detect } from "detect-browser";
 
 
 import "./FirstComponent.css";
